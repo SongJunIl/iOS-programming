@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0621CF23EBF364005C791C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0621CD23EBF364005C791C /* NetworkManager.m */; };
 		FDD6606C23EBE7E000672BC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6606B23EBE7E000672BC2 /* AppDelegate.m */; };
 		FDD6606F23EBE7E000672BC2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6606E23EBE7E000672BC2 /* SceneDelegate.m */; };
 		FDD6607223EBE7E000672BC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6607123EBE7E000672BC2 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD0621CD23EBF364005C791C /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		FD0621CE23EBF364005C791C /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		FDD6606723EBE7E000672BC2 /* NetObjective-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetObjective-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD6606A23EBE7E000672BC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDD6606B23EBE7E000672BC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 		FDD6606923EBE7E000672BC2 /* NetObjective-c */ = {
 			isa = PBXGroup;
 			children = (
+				FD0621CE23EBF364005C791C /* NetworkManager.h */,
+				FD0621CD23EBF364005C791C /* NetworkManager.m */,
 				FDD6606A23EBE7E000672BC2 /* AppDelegate.h */,
 				FDD6606B23EBE7E000672BC2 /* AppDelegate.m */,
 				FDD6606D23EBE7E000672BC2 /* SceneDelegate.h */,
@@ -149,6 +154,7 @@
 				FDD6607223EBE7E000672BC2 /* ViewController.m in Sources */,
 				FDD6606C23EBE7E000672BC2 /* AppDelegate.m in Sources */,
 				FDD6607D23EBE7E100672BC2 /* main.m in Sources */,
+				FD0621CF23EBF364005C791C /* NetworkManager.m in Sources */,
 				FDD6606F23EBE7E000672BC2 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
